@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial Narrow Bold;
+    background-color: #0A1720;
+}
+
+.navbar {
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand_name {
+      margin-top: 20px;
+      color: white;
+      font-size: 35px;
+      margin-left: 30px
+
+}
+
+.menu ul {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+li {
+   
+    padding: 15px;
+    list-style: none;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.abc {
+    height: 70vh;
+    width: 70%;
+    background-color: #0A1720;
+    margin-top: -90px;
+}
+
+.main {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1 {
+    margin-left: 50px;
+    height: 25vh;
+    font-size: 150px;
+
+    color: white;
+    
+}
+
+.main2 {
+    margin-left: 550px;
+    margin-top:-40px;
+    color: white;
+    font-size: 22px;
+
+}
+
+.box {
+    display: flex;
+    margin-top: 5%;
+}
+
+.box1 {
+    width: 50%;
+}
+
+.dscpn {
+    padding: 100px;
+    color: white;
+
+}
+
+.box2 {
+    width: 45%; 
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+ }
+
+.line {
+	width: 0.1px;
+    height: 100px;
+    margin-top: 80px;
+    background-color: white;
+
+}
+
+.square1 {
+    height: 100px;
+    width: 100px;
+    margin-top: -13px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 8%, rgba(20, 27, 74, 1) 100%, rgba(13, 14, 19, 1) 100%);
+}
+
+.square2 {
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: -13px;
+    border: 2px solid;
+    border-image: linear-gradient(0deg, rgba(74, 72, 20, 1) 24%, rgba(172, 34, 195, 1) 98%);
+    border-image-slice: 2;
+}
+
+.hole {
+    margin-top: 20%;
+    margin-left: 70%;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+}
+
+.menu .hole1 {
+	margin-top: 5px;
+	margin-right: -10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+li a {
+    padding: 8px 0;
+}
+
+.active {
+    border-bottom: solid 2px #008000;
+}
+
+.new {
+    border-top-color: white;
+    border-bottom-color: white;
+}
